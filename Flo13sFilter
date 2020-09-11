@@ -20,18 +20,18 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) SOCK>0]: %NAME% %TAN%[
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full Rejuv
 ItemDisplay[rvs]: %PURPLE%r %WHITE%Rejuv
-ItemDisplay[hp5 CLVL>14CLVL>14]: %RED%!%WHITE%Hp
+ItemDisplay[hp5 CLVL>14]: %RED%!%WHITE%Hp
 ItemDisplay[mp5 CLVL>14]: %BLUE%!%WHITE%Mp
-//ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%minor hp
-//ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%light hp
-//ItemDisplay[hp3 DIFFICULTY=0]: %RED%!%WHITE%healing
-//ItemDisplay[hp4 DIFFICULTY<2]: %RED%!%WHITE%great hp
-//ItemDisplay[mp1 DIFFICULTY=0]: %BLUE%!%WHITE%minor mp
-//ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%light mp
-//ItemDisplay[mp3 DIFFICULTY=0]: %BLUE%!%WHITE%mana
-//ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%great mp
-//ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFFICULTY>0]:
-//ItemDisplay[(hp4 OR mp4) DIFFICULTY>1]:
+ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%minor hp
+ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%light hp
+ItemDisplay[hp3 DIFFICULTY=0]: %RED%!%WHITE%healing
+ItemDisplay[hp4 DIFFICULTY<2]: %RED%!%WHITE%great hp
+ItemDisplay[mp1 DIFFICULTY=0]: %BLUE%!%WHITE%minor mp
+ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%light mp
+ItemDisplay[mp3 DIFFICULTY=0]: %BLUE%!%WHITE%mana
+ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%great mp
+ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFFICULTY>0]:
+ItemDisplay[(hp4 OR mp4) DIFFICULTY>1]:
 
 //Utilites
 //ItemDisplay[tsc]: %BLUE%°%GRAY%tp
