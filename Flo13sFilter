@@ -20,8 +20,8 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) SOCK>0]: %NAME% %TAN%[
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full Rejuv
 ItemDisplay[rvs]: %PURPLE%r %WHITE%Rejuv
-ItemDisplay[hp5 CLVL>14]: %RED%!%WHITE%Hp
-ItemDisplay[mp5 CLVL>14]: %BLUE%!%WHITE%Mp
+ItemDisplay[hp5 CLVL<14]: %RED%!%WHITE%Hp
+ItemDisplay[mp5 CLVL<14]: %BLUE%!%WHITE%Mp
 ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%minor hp
 ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%light hp
 ItemDisplay[hp3 DIFFICULTY=0]: %RED%!%WHITE%healing
@@ -34,13 +34,13 @@ ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFFICULTY>0]:
 ItemDisplay[(hp4 OR mp4) DIFFICULTY>1]:
 
 //Utilites
-//ItemDisplay[tsc]: %BLUE%°%GRAY%tp
-//ItemDisplay[isc]: %RED%°%GRAY%id
+ItemDisplay[tsc CLVL>14 CLVL<14]: %BLUE%°%GRAY%tp
+ItemDisplay[isc CLVL<14]: %RED%°%GRAY%id
 ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
 ItemDisplay[vps CLVL>40]:
 ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
 ItemDisplay[wms CLVL>60]:
-ItemDisplay[yps CLVL>14]: %GREEN%!%WHITE%a
+ItemDisplay[yps CLVL<14]: %GREEN%!%WHITE%a
 //ItemDisplay[key]: %GRAY%key
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
