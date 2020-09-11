@@ -34,14 +34,14 @@ ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFFICULTY>0]:
 ItemDisplay[(hp4 OR mp4) DIFFICULTY>1]:
 
 //Utilites
-ItemDisplay[tsc CLVL>14 CLVL<14]: %BLUE%°%GRAY%tp
-ItemDisplay[isc CLVL<14]: %RED%°%GRAY%id
+ItemDisplay[tsc]: %BLUE%°%GRAY%tp
+ItemDisplay[isc]: %RED%°%GRAY%id
 ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
 ItemDisplay[vps CLVL>40]:
 ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
 ItemDisplay[wms CLVL>60]:
-ItemDisplay[yps CLVL<14]: %GREEN%!%WHITE%a
-//ItemDisplay[key]: %GRAY%key
+ItemDisplay[yps]: %GREEN%!%WHITE%a
+ItemDisplay[key]: %GRAY%key
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
