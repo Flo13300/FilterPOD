@@ -20,8 +20,8 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) SOCK>0]: %NAME% %TAN%[
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full Rejuv
 ItemDisplay[rvs]: %PURPLE%r %WHITE%Rejuv
-//ItemDisplay[hp5]: %RED%!%WHITE%Hp
-//ItemDisplay[mp5]: %BLUE%!%WHITE%Mp
+ItemDisplay[hp5 DIFFICULTY=0]: %RED%!%WHITE%Hp
+ItemDisplay[mp5 DIFFICULTY=0]: %BLUE%!%WHITE%Mp
 //ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%minor hp
 //ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%light hp
 //ItemDisplay[hp3 DIFFICULTY=0]: %RED%!%WHITE%healing
