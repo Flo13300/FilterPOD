@@ -308,7 +308,6 @@ ItemDisplay[wsp !ETH AND (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //HOTO AND CTA
 ItemDisplay[fla (ETH AND (NMAG OR RW)) SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[fla (NMAG OR RW) SOCK>3]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[fla (NMAG OR RW) SOCK=3]: %RED%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 //White
