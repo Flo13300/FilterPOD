@@ -1,8 +1,8 @@
-// Flo13's Loot Filter ver 1.0
-//
 // 
 //
 // 
+//
+//
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
@@ -58,7 +58,7 @@ ItemDisplay[pk3]: %NAME% %GRAY%[Nihlathak]
 
 //PoD Items
 ItemDisplay[cx7]: %RED%»»»» %NAME%%RED% ««««
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR maz]: %NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
+ItemDisplay[ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR maz]: %NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
 
 //Wirt Leg
 ItemDisplay[leg SOCK>0]: %NAME% %TAN%[%SOCKETS%]
@@ -68,20 +68,20 @@ ItemDisplay[leg]: %NAME%
 ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17]: %ORANGE%%RUNENAME% %GRAY%[%RUNENUM%]
 ItemDisplay[r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15]: %ORANGE%%RUNENAME% %TAN%[%RUNENUM%]
 ItemDisplay[r18 OR r19]: %ORANGE%%RUNENAME% %WHITE%[%RUNENUM%]
-ItemDisplay[r20 OR r21 OR r22 OR r23]: %PURPLE%SUU %RED%%RUNENAME% %ORANGE%[%RUNENUM%]%PURPLE% SUU
-ItemDisplay[r24 OR r25]: %PURPLE%SUUU %RED%%RUNENAME% %ORANGE%[%RUNENUM%]%PURPLE% SUUU
-ItemDisplay[r26]: %PURPLE%SUUUUUU %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% SUUUUUU
-ItemDisplay[r27 OR r32]: %PURPLE%SUUUUUUUU %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% SUUUUUUUU
-ItemDisplay[r28]: %PURPLE%SUUUUUUUUUU %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% SUUUUUUUUUU
-ItemDisplay[r29 OR r33]: %PURPLE%SUUUUUUUUUUUU %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% SUUUUUUUUUUUU
-ItemDisplay[r30]: %PURPLE%SUUUUUUUUUUUUUU %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% SUUUUUUUUUUUUUU
-ItemDisplay[r31]: %PURPLE%SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+ItemDisplay[r20 OR r21 OR r22 OR r23]: %PURPLE%» %RED%%RUNENAME% %ORANGE%[%RUNENUM%]%PURPLE% «
+ItemDisplay[r24 OR r25]: %PURPLE%» » %RED%%RUNENAME% %ORANGE%[%RUNENUM%]%PURPLE% « «
+ItemDisplay[r26]: %PURPLE%»» »» %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% «« ««
+ItemDisplay[r27 OR r32]: %PURPLE%»» »» »» %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% «« «« ««
+ItemDisplay[r28]: %PURPLE%»» »» »» »» »» »» %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% «« «« «« «« «« ««
+ItemDisplay[r29 OR r33]: %PURPLE%»» »» »» »» %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% «« «« «« ««
+ItemDisplay[r30]: %PURPLE%»» »» »» »» »» »» »» »» %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% «« «« «« «« «« «« «« ««
+ItemDisplay[r31]: %PURPLE%»» »» »» »» »» »» »» »» »» »» %RED%%RUNENAME% %GREEN%[%RUNENUM%]%PURPLE% «« «« «« «« «« «« «« «« «« ««
 
 //Gems
 ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<19]: %NAME%
-//ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: %GRAY%chip
+ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: %GRAY%chip
 ItemDisplay[gzv]: %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[glw]: %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[glg]: %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
@@ -105,21 +105,21 @@ ItemDisplay[cqv CLVL>12]:
 ItemDisplay[cq2 NMAG CLVL>12]:
 ItemDisplay[cq2 MAG CLVL>40]:
 
-//Circlets
-//ItemDisplay[EQ7 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
+//Criclets
+ItemDisplay[EQ7 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
 ItemDisplay[EQ7 RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[EQ7 RARE !ETH !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
 ItemDisplay[EQ7 (MAG OR RARE)]: %NAME%
-//ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]
+ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]
 
 //Class items
-//ItemDisplay[(CL1 OR CL2 OR CL5 OR CL6 OR WP12) MAG ETH]: %GRAY%ETH %BLUE%%NAME%
-//ItemDisplay[(CL1 OR CL2 OR CL5 OR CL6 OR WP12) RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
-//ItemDisplay[(CL1 OR CL2 OR CL5 OR CL6 OR WP12) (MAG OR RARE)]: %NAME%
+ItemDisplay[(CL1 OR CL2 OR CL5 OR CL6 OR WP12) MAG ETH]: %GRAY%ETH %BLUE%%NAME%
+ItemDisplay[(CL1 OR CL2 OR CL5 OR CL6 OR WP12) RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[(CL1 OR CL2 OR CL5 OR CL6 OR WP12) (MAG OR RARE)]: %NAME%
 ItemDisplay[WEAPON (WP6 AND CL7) MAG ETH]: %GRAY%ETH %BLUE%%NAME%
 ItemDisplay[WEAPON (WP6 AND CL7) RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[WEAPON (WP6 AND CL7) (MAG OR RARE)]: %NAME%
-//ItemDisplay[(wsp OR 9ws OR 7ws) (MAG OR RARE) !ETH]: %NAME%
+ItemDisplay[(wsp OR 9ws OR 7ws) (MAG OR RARE) !ETH]: %NAME%
 
 //Good Charms
 ItemDisplay[cm3 (ITEMSTAT22>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm %GRAY%[%ILVL%]
@@ -240,8 +240,8 @@ ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
 //Rings and amulets
 ItemDisplay[(rin OR amu) RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
-//ItemDisplay[(ring OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
-//ItemDisplay[(ring OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
+ItemDisplay[(ring OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
+ItemDisplay[(ring OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 
 //Jewels
 ItemDisplay[jew MAG !ID]: %TAN%»%WHITE%» %BLUE%%NAME%%WHITE% «%TAN%«
@@ -249,12 +249,12 @@ ItemDisplay[jew RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
 
 //Craftables
 ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]: %NAME%
-//ItemDisplay[uvg MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
-//ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
-//ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
-//ItemDisplay[uvc MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
-//ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]
-//ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
+ItemDisplay[uvg MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
+ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
+ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
+ItemDisplay[uvc MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
+ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]
+ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
@@ -278,8 +278,8 @@ ItemDisplay[uhm UNI !ETH !ID]: %GOLD%»» %GREEN%½ %PURPLE%%NAME%%GOLD% ««
 //boots
 ItemDisplay[(lbt OR xhb OR uhb) UNI !ETH !ID]: %GOLD%»» %PURPLE%%NAME%%GOLD% ««
 //jewelry
-ItemDisplay[UNI !ID rin]: %RED%»» »» %PURPLE%UNIQUE RING SUUUU%RED% «« ««
-ItemDisplay[UNI !ID amu]: %RED%»» »» %PURPLE%UNIQUE AMULET SUUUU%RED% «« ««
+ItemDisplay[UNI !ID rin]: %RED%»» »» %PURPLE%UNIQUE RING HYPE%RED% «« ««
+ItemDisplay[UNI !ID amu]: %RED%»» »» %PURPLE%UNIQUE AMULET HYPE%RED% «« ««
 ItemDisplay[UNI !ID jew]: %RED%»»%ORANGE%»»%YELLOW%»»%GREEN%»»%BLUE%»» %PURPLE%%NAME%%BLUE% ««%GREEN%««%YELLOW%««%ORANGE%««%RED%««
 //shields
 ItemDisplay[uow UNI !ID]: %GOLD%»» %PURPLE%%NAME%%GOLD% ««
@@ -304,10 +304,11 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //Holy Thunder/Rift
-//ItemDisplay[wsp !ETH AND (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[wsp !ETH AND (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //HOTO AND CTA
 ItemDisplay[fla (ETH AND (NMAG OR RW)) SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[fla (NMAG OR RW) SOCK>3]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[fla (NMAG OR RW) SOCK=3]: %RED%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs (ETH AND (NMAG OR RW)) SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 //White
@@ -335,7 +336,8 @@ ItemDisplay[(7wa OR 7fb OR 7gd) (ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %GRAY%
 ItemDisplay[7fb (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wa OR 7gd) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Breath of the Dying/Last Wish
-ItemDisplay[(7wa OR 7gd OR 7p7 OR 7cr) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7cr !INF AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7wa OR 7gd OR 7p7) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Lawbringer
 ItemDisplay[72h (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Chaos
